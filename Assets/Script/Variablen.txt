@@ -1,0 +1,136 @@
+Click
+	public string itemCacao = "Cacao";
+    public float cacaoCount;
+    public int cacaoPerClick = 1;
+    public Text displayCacao;
+
+    public string itemSugar = "Sugar";
+    public int sugarCount;
+    public int sugarPerClick = 1;
+    public Text displaySugar;
+
+    public string itemMilk = "Milk";
+    public int milkCount;
+    public int milkPerClick = 1;
+    public Text displayMilk;
+
+    public string itemCream = "Cream";
+    public int creamCount;
+    public int creamPerClick = 1;
+    public Text displayCream;
+
+    public string itemButter = "Butter";
+    public int butterCount;
+    public int butterPerClick = 1;
+    public Text displayButter;
+
+ClickPerSecond
+
+	public float cacaoTimer = 0;
+	public float sugarTimer = 0;
+	public float milkTimer = 0;
+	public float creamTimer = 0;
+	public float butterTimer = 0;
+	
+	public float cacaoPerSecond = 0;        //generated automatic Cacao Item per Second
+    public float sugarPerSecond = 0;        //generated automatic Sugar Item per Second
+    public float milkPerSecond = 0;         //generated automatic Milk Item per Second
+    public float creamPerSecond = 0;        //generated automatic Cream Item per Second
+    public float butterPerSecond = 0;       //generated automatic Butter Item per Second
+
+	public float timer = 0;
+	public float waitTime = 1;
+
+Recipe
+	public string itemDarkChocolate = "Dark Chocolate";
+	public float countDarkChocolate;
+	public Text displayDarkChocolate;
+	public float costCacaoDark;
+	float baseCostCacaoDark = 4;
+	public float costSugarDark;
+	float baseCostSugarDark = 4;
+
+	public string itemMilkChocolate = "Milk Chocolate";
+	public float countMilkChocolate;
+	public Text displayMilkChocolate;
+	public float costCacaoMilk;
+	float baseCostCacaoMilk = 4;
+	public float costSugarMilk;
+	float baseCostSugarMilk = 4;
+	public float costMilkMilk;
+	float baseCostMilkMilk = 4;
+
+	public string itemWhiteChocolate = "White Chocolate";
+	public float countWhiteChocolate;
+	public Text displayWhiteChocolate;
+	public float costButterWhite;
+	float baseCostButterWhite = 4;
+	public float costSugarWhite;
+	float baseCostSugarWhite = 4;
+
+	public string itemMilkcreme = "Milkcreme";
+	public float countMilkcreme;
+	public Text displayMilkcreme;
+	public float costCacaoCreme;
+	float baseCostCacaoCreme = 4;
+	public float costSugarCreme;
+	float baseCostSugarCreme = 4;
+	public float costCreamCreme;
+	float baseCostCreamCreme = 4;
+	public float costButterCreme;
+	float baseCostButterCreme = 4;
+
+	public string itemChocolateMousse = "Chocolate Mousse";
+	public float countChocolateMousse;
+	public Text displayChocolateMousse;
+	public float costCacaoMousse;
+	float baseCostCacaoMousse = 4;
+	public float costSugarMousse;
+	float baseCostSugarMousse = 4;
+	public float costCreamMousse;
+	float baseCostCreamMousse = 4;
+	public float costButterMousse;
+	float baseCostButterMousse = 4;
+
+Sellout
+	public float money;
+
+	public float priceDark = 5; // Price Dark Chocolate
+	public Text darkPrice;
+	public float priceMilk = 5; // Price Milk Chocolate
+	public Text milkPrice;
+	public float priceWhite = 5; // Price White Chocolate
+	public Text whitePrice;
+	public float priceCreme = 5; // Price Milkcreme
+	public Text cremePrice;
+	public float priceMousse = 5; // Price Chocolate Mousse
+	public Text moussePrice;
+
+Upgrade
+	public string cacaoCollector = "Cacao Collector";
+	public float cacaoCollectorCount = 0;
+	public float upgradeCostCacao = 100;
+	public Text cacaoCollectorText;
+
+	public string sugarCollector = "Cuting Machine";
+	public float sugarCollectorCount = 0;
+	public float upgradeCostSugar = 100;
+	public Text sugarCollectorText;
+
+	public string milkCollector = "Dairy Plant";
+	public float milkCollectorCount = 0;
+	public float upgradeCostMilk = 100;
+	public Text milkCollectorText;
+
+	public string creamCollector = "Stirring Machine";
+	public float creamCollectorCount = 0;
+	public float upgradeCostCream = 100;
+	public Text creamCollectorText;
+
+	public string butterCollector = "Butter Tamper";
+	public float butterCollectorCount = 0;
+	public float upgradeCostButter = 100;
+	public Text butterCollectorText;
+
+Inventory
+	public Text inventory;
