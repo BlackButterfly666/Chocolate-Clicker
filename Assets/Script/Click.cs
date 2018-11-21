@@ -66,4 +66,8 @@ public class Click : MonoBehaviour
 
 	#endregion
 
+	public void Update()
+	{
+		if (Input.GetKeyDown(KeyCode.Escape)) { Application.Quit(); }
+	}
 }
